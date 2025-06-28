@@ -1,1 +1,232 @@
-[TRUNCATED FOR BREVITY — will be added in full below]
+<!DOCTYPE html>
+<html lang="en" x-data>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naiya Patel | Data Analyst Portfolio</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Alpine.js -->
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a2e0fc662c.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Particles.js -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    #particles-js {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Hero Section -->
+  <header class="relative h-screen flex items-center justify-center text-center bg-gray-900 text-white">
+    <div id="particles-js"></div>
+    <div class="z-10">
+      <h1 class="text-4xl md:text-6xl font-bold animate__animated animate__fadeInDown">Naiya Patel</h1>
+      <p class="mt-4 text-xl md:text-2xl animate__animated animate__fadeInUp">Data Analyst | Power BI Specialist</p>
+      <a href="#projects" class="mt-6 inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-lg transition animate__animated animate__fadeInUp">
+        View My Work
+      </a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-6 md:px-16 bg-gray-50">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">About Me</h2>
+      <p class="text-lg">
+        I'm a highly motivated Data Analyst with a Master’s in Business Analytics and extensive experience in SQL, Power BI, Tableau, and data modeling. I specialize in transforming raw data into compelling stories that drive decision-making.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-16 px-6 md:px-16 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10">Technical Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div>Python</div>
+        <div>SQL & MySQL</div>
+        <div>Power BI</div>
+        <div>Tableau</div>
+        <div>Excel & VBA</div>
+        <div>MongoDB</div>
+        <div>Data Cleaning</div>
+        <div>DAX & Power Query</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="py-16 px-6 md:px-16 bg-gray-50">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10">Professional Experience</h2>
+      <ol class="border-l-4 border-blue-600 space-y-8 pl-6">
+        <li>
+          <h3 class="text-xl font-semibold">Power BI Data Analyst – IT Expert Inc. (2024 - Present)</h3>
+          <p>Led Power BI suite development for 15+ clients, embedded reports in Salesforce, and managed data access for 4K+ users.</p>
+        </li>
+        <li>
+          <h3 class="text-xl font-semibold">Data Analyst Intern – Schaumburg Marketplace (2023 - 2024)</h3>
+          <p>Improved communication pipelines and enhanced ETL processes, boosting team responsiveness and campaign performance.</p>
+        </li>
+        <li>
+          <h3 class="text-xl font-semibold">Data Analyst – Velox Group (2022 - 2023)</h3>
+          <p>Created Tableau dashboards and integrated 20+ data sources, generating $100K in new revenue opportunities.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="py-16 px-6 md:px-16 bg-white">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10">Education</h2>
+      <ul class="space-y-6">
+        <li>
+          <h3 class="text-xl font-semibold">Northwood University, MI (2023 - 2024)</h3>
+          <p>M.S. in Business Analytics — GPA: 3.90</p>
+        </li>
+        <li>
+          <h3 class="text-xl font-semibold">Maharaja Sayajirao University, India (2018 - 2021)</h3>
+          <p>Bachelors in Accounting and Finance — GPA: 4.00</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 px-6 md:px-16 bg-gray-50">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
+      <div class="grid gap-10 md:grid-cols-2">
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="text-xl font-semibold">Sales Performance Dashboard</h3>
+          <p>Built a dynamic Power BI dashboard using DAX and Power Query to track sales KPIs and automate data refresh cycles.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="text-xl font-semibold">EV Data Visualization System</h3>
+          <p>Developed Tableau dashboards to analyze EV metrics, boosting data-driven decisions by 25% and improving data quality by 60%.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="py-16 px-6 md:px-16 bg-white">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10">Certifications</h2>
+      <ul class="list-disc list-inside space-y-2 text-center md:text-left">
+        <li>Tableau Desktop Qualified Associate</li>
+        <li>Power BI Desktop Certification</li>
+        <li>Data Analysis with Excel</li>
+        <li>Oracle Database Certification</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-6 md:px-16 bg-gray-100">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+      <p class="mb-4">Feel free to reach out via email or connect on LinkedIn or GitHub!</p>
+      <div class="space-x-4 text-xl">
+        <a href="mailto:naiyaa_patel@yahoo.com" class="text-blue-600 hover:underline">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="https://www.linkedin.com/in/naiya29" target="_blank" class="text-blue-600 hover:underline">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/Naiya29" target="_blank" class="text-blue-600 hover:underline">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 bg-gray-900 text-white text-center">
+    <p>&copy; 2025 Naiya Patel. All rights reserved.</p>
+  </footer>
+
+  <!-- Particles.js config -->
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 60,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": { "value": "#ffffff" },
+        "shape": {
+          "type": "circle",
+          "stroke": { "width": 0, "color": "#000000" }
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": false
+        },
+        "size": {
+          "value": 3,
+          "random": true
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 3
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": { "enable": true, "mode": "grab" },
+          "onclick": { "enable": true, "mode": "push" }
+        },
+        "modes": {
+          "grab": { "distance": 140, "line_linked": { "opacity": 1 } },
+          "push": { "particles_nb": 4 }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+</body>
+</html>
+<!-- About Section -->
+<section id="about" class="py-16 px-6 md:px-16 bg-gray-50">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">About Me</h2>
+    <p class="text-lg leading-relaxed">
+      I'm a data-driven professional with a Master’s in Business Analytics and a solid foundation in accounting and finance. I specialize in transforming complex data into actionable insights using Power BI, Tableau, SQL, and Python.
+    </p>
+    <p class="text-lg mt-4 leading-relaxed">
+      With hands-on experience developing enterprise-scale dashboards, optimizing ETL processes, and leveraging tools like RLS and predictive analytics, I help businesses make smarter, faster decisions. My work is backed by a passion for clean, structured data and strategic storytelling.
+    </p>
+    <p class="text-lg mt-4 leading-relaxed">
+      Whether it's designing insightful visualizations or automating workflows, I’m driven to uncover patterns, connect the dots, and deliver meaningful results that empower teams and shape strategy.
+    </p>
+  </div>
+</section>
+<a href="Naiya_Resume.pdf" download class="mt-8 inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full transition duration-300">
+  <i class="fas fa-download mr-2"></i>Download Resume
+</a>
